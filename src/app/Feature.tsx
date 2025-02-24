@@ -9,16 +9,16 @@ const Feature = () => {
   const productSets = [
     [
       { name: "JD with Honey", image: "/assets/product1.webp" },
-      { name: "Single Barrel(RYE)", image: "/assets/product3.jpg" },
-      { name: "Single Barrel(Select)", image: "/assets/product2.jpg" },
+      { name: "Single Barrel(RYE)", image: "/assets/product3.png" },
+      { name: "Single Barrel(Select)", image: "/assets/product2.png" },
     ],
     [
-      { name: "JD", image: "/assets/product4.webp" },
-      { name: "JD (RYE)", image: "/assets/product5.jpg" },
+      { name: "JD", image: "/assets/product4.png" },
+      { name: "JD (RYE)", image: "/assets/product5.png" },
       { name: "American Single Malt", image: "/assets/product6.webp" },
     ],
     [
-      { name: "Tennese Apple", image: "/assets/product7.jpg" },
+      { name: "Tennese Apple", image: "/assets/product7.png" },
     ],
   ]
 
@@ -46,7 +46,17 @@ const Feature = () => {
                       {productSet.map((product) => (
                       <div key={product.name} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
                       {/* Image Container */}
-                      <div className="relative h-48 flex justify-center items-center bg-gray-100">
+                      <div className="relative h-64 flex justify-center items-center bg-gray-100">
+                          <Image
+                            src={product.image || "/placeholder.svg"}
+                            alt={product.name}
+                            width={300}
+                            height={300}
+                            className="object-contain max-h-full max-w-full"
+                            sizes="(max-width: 768px) 100vw, 300px"
+                          />
+                        </div>
+                      {/* <div className="relative h-48 flex justify-center items-center bg-gray-100">
                         <Image
                           src={product.image || "/placeholder.svg"}
                           alt={product.name}
@@ -54,7 +64,7 @@ const Feature = () => {
                           height={200}
                           className="object-contain max-h-full"
                         />
-                      </div>
+                      </div> */}
                     
                       {/* Content Section */}
                       <div className="p-6 flex flex-col flex-grow">
