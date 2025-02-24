@@ -7,29 +7,29 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-black text-white fixed w-full top-0 z-[100]">
+    <header className="bg-black text-[#baab8f] fixed w-full top-0 z-[100]">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         {/* Logo */}
         <Image src="/assets/logo.png" alt="Logo not found" width={150} height={150} />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:text-gray-300">
+          <a href="#home" className="hover:text-gray-300 font-knockout">
             Home
           </a>
-          <a href="#products" className="hover:text-gray-300">
+          <a href="#products" className="hover:text-gray-300 font-knockout">
             Products
           </a>
-          <a href="#about" className="hover:text-gray-300">
+          <a href="#about" className="hover:text-gray-300 font-knockout">
             About
           </a>
-          <a href="#contact" className="hover:text-gray-300">
+          <a href="#contact" className="hover:text-gray-300 font-knockout">
             Contact
           </a>
-          <a href="#why-us" className="hover:text-gray-300">
+          <a href="#why-us" className="hover:text-gray-300 font-knockout">
             Why Us?
           </a>
-          <a href="#outlets" className="hover:text-gray-300">
+          <a href="#outlets" className="hover:text-gray-300 font-knockout">
             Outlets
           </a>
         </nav>
@@ -49,22 +49,22 @@ const Header = () => {
             isMenuOpen ? "translate-x-0 opacity-100" : "translate-x-[-100%] opacity-0 hidden"
           } md:hidden`}
       >
-        <a href="#home" className="text-xl py-2 hover:text-gray-300" onClick={() => setIsMenuOpen(false)}>
+        <a href="#home" className="text-xl py-2 hover:text-gray-300 font-knockout" onClick={() => setIsMenuOpen(false)}>
           Home
         </a>
-        <a href="#products" className="text-xl py-2 hover:text-gray-300" onClick={() => setIsMenuOpen(false)}>
+        <a href="#products" className="text-xl py-2 hover:text-gray-300 font-knockout" onClick={() => setIsMenuOpen(false)}>
           Products
         </a>
-        <a href="#about" className="text-xl py-2 hover:text-gray-300" onClick={() => setIsMenuOpen(false)}>
+        <a href="#about" className="text-xl py-2 hover:text-gray-300 font-knockout" onClick={() => setIsMenuOpen(false)}>
           About
         </a>
-        <a href="#contact" className="text-xl py-2 hover:text-gray-300" onClick={() => setIsMenuOpen(false)}>
+        <a href="#contact" className="text-xl py-2 hover:text-gray-300 font-knockout" onClick={() => setIsMenuOpen(false)}>
           Contact
         </a>
-        <a href="#why-us" className="text-xl py-2 hover:text-gray-300" onClick={() => setIsMenuOpen(false)}>
+        <a href="#why-us" className="text-xl py-2 hover:text-gray-300 font-knockout" onClick={() => setIsMenuOpen(false)}>
           Why Us
         </a>
-        <a href="#outlets" className="text-xl py-2 hover:text-gray-300" onClick={() => setIsMenuOpen(false)}>
+        <a href="#outlets" className="text-xl py-2 hover:text-gray-300 font-knockout" onClick={() => setIsMenuOpen(false)}>
           Outlets
         </a>
       </div>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
      <footer id="contact" className="bg-[url('/assets/bg6.avif')] text-black h-[1000px] md:h-[600px] py-12">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 font-knockout ">
         <div className='m-3 flex flex-col items-center mb-8'>
             <Image
               src='/assets/logof.png'
@@ -84,11 +84,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center font-semibold">
-            <p>JACK DANIEL DISTILLERY LYNCHBURG, TENNESSEE</p>
-            <p>JACK, JACK DANIEL'S, OLD NO. 7, GENTLEMAN JACK, and JD are trademarks. © 2025 Jack Daniel's Properties, Inc. </p>
-            <p> All rights reserved.</p>
-            <p>All other trademarks and trade names are properties of their respective owners.</p>
-            <p>Please do not share or forward with anyone under the legal drinking age.</p>
+            <p className='font-knockout'>JACK DANIEL DISTILLERY LYNCHBURG, TENNESSEE</p>
+            <p className='font-knockout'>JACK, JACK DANIEL'S, OLD NO. 7, GENTLEMAN JACK, and JD are trademarks. © 2025 Jack Daniel's Properties, Inc. </p>
+            <p className='font-knockout'> All rights reserved.</p>
+            <p className='font-knockout'>All other trademarks and trade names are properties of their respective owners.</p>
+            <p className='font-knockout'>Please do not share or forward with anyone under the legal drinking age.</p>
           </div>
         </div>
       </footer>

@@ -45,7 +45,7 @@ const About = () => {
 
             {/* Text Content with Scroll Animation */}
             <div className="md:w-1/2 md:pl-12 fade-in opacity-0 translate-y-10 transition-all duration-1000 ease-out">
-              <h2 className="text-3xl text-slate-200 font-bold mb-4">About Jack Daniels</h2>
+              <h2 className="text-3xl text-slate-200 font-bold mb-4 font-knockout">About Jack Daniels</h2>
               <p className="text-gray-400 mb-6">
                 At Jack Daniels, we are passionate about bringing you the best selection of premium liquors from around
                 the world. With years of experience and a dedication to quality, we ensure that every bottle in our
@@ -57,7 +57,7 @@ const About = () => {
               </p>
               <a
                 href="#contact"
-                className="bg-gray-900 text-white px-6 py-3 rounded-full font-bold hover:bg-gray-800 transition duration-300"
+                className="bg-gray-900 text-[#baab8f] px-6 py-3 rounded-full font-bold hover:bg-gray-800 transition duration-300"
               >
                 Learn More
               </a>

@@ -33,7 +33,7 @@ const Feature = () => {
     <div>
       <section id="products" className="py-16 relative bg-[url('/assets/bg4.avif')]  bg-cover  bg-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold text-center text-white mb-12">Featured Products</h1>
+          <h1 className="text-3xl font-knockout text-center text-white mb-12">Featured Products</h1>
           <div className="relative">
             <div className="overflow-hidden">
               <div
@@ -59,13 +59,13 @@ const Feature = () => {
                       {/* Content Section */}
                       <div className="p-6 flex flex-col flex-grow">
                         <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-                        <p className="text-gray-600 mb-4 flex-grow">
+                        <p className="text-gray-600 font-knockout mb-4 flex-grow">
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
                     
                         {/* Price & Button */}
                         <div className="flex justify-between items-center mt-auto">
-                          <span className="text-xl font-bold">$49.99</span>
+                          <span className="text-xl font-bold font-knockout">$49.99</span>
                           <button className="bg-yellow-500 text-gray-900 px-4 py-2 rounded-full flex items-center">
                             <ShoppingCart className="mr-2" size={20} />
                             Add to Cart

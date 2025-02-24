@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.font-knockout {
+  font-family: var(--font-knockout);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
