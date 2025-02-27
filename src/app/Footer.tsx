@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center font-semibold">
             <p className='font-knockout'>JACK DANIEL DISTILLERY LYNCHBURG, TENNESSEE</p>
-            <p className='font-knockout'>JACK, JACK DANIEL'S, OLD NO. 7, GENTLEMAN JACK, and JD are trademarks. © 2025 Jack Daniel's Properties, Inc. </p>
+            <p className='font-knockout'>JACK, JACK DANIEL &apos;S, OLD NO. 7, GENTLEMAN JACK, and JD are trademarks. © 2025 Jack Daniel &apos;s Properties, Inc. </p>
             <p className='font-knockout'> All rights reserved.</p>
             <p className='font-knockout'>All other trademarks and trade names are properties of their respective owners.</p>
             <p className='font-knockout'>Please do not share or forward with anyone under the legal drinking age.</p>

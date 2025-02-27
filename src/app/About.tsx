@@ -52,7 +52,7 @@ const About = () => {
                 collection meets the highest standards.
               </p>
               <p className="text-gray-400 mb-6">
-                Whether you're a connoisseur or just beginning your journey into the world of fine spirits, our
+                Whether you &apos; re a connoisseur or just beginning your journey into the world of fine spirits, our
                 knowledgeable staff is here to guide you and help you discover your new favorites.
               </p>
               <a
